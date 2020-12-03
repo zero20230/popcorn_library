@@ -1,0 +1,97 @@
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+  }
+  
+  /* Bootstrap 4 text input with search icon */
+  
+  .has-search .form-control {
+    padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+  /*jumbotron*/
+  .jumbotron
+  {   
+  padding-top: 0px;
+  padding-bottom:0px;
+  background-image:url('images/car/car.jpg');
+  background-size: cover;
+  height:120px;
+   }
+   .btn .fa.fa-sm {
+    font-size: 1rem;
+    margin-top: -5px;
+    }
+    .jumbotronmod  /*jumbotrommod*/
+    {   
+    padding-top: 0px;
+    padding-bottom:0px;
+    background-image:url('images/car/car.jpg');
+    background-size: cover;
+    height:240px;
+     }
+   ion-icon {
+    font-size: 60px;
+  }
+  @font-face{
+    font-family: Title;
+    src:url('Broadway_2.ttf');  /*FUENTE MOD*/
+  }
+  @media only screen and (min-width: 1px) {
+  .texto_titulo{
+    font-family: Title;
+    font-size: 45px;
+  }}
+  
+  @media only screen and (min-width: 720px) {
+    .texto_titulo{
+      font-family: Title;
+      font-size: 65px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .texto_titulo{
+      font-family: Title;
+      font-size: 80px;
+    }}
+    @media only screen and (min-width: 1px) {
+      .texto_titulo2{
+        font-family: Title;
+        font-size: 55px;
+      }}
+  
+  
+      .pb-cmnt-container {
+          font-family: Lato;
+          margin-top: 100px;
+      }
+  
+      .pb-cmnt-textarea {
+          resize: none;
+          padding: 20px;
+          height: 130px;
+          width: 100%;
+          border: 1px solid #F2F2F2;
+      }
+      .texto-mantequilla1 {
+        color: #ffff08 !important;
+      }
+
+   
+
+      .texto-red {
+        color: #ff575f !important;
+      }
