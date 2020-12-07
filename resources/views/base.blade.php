@@ -20,8 +20,8 @@
 <title>Popcorn Library  @yield('title',' ')</title>
 </head>
 <body style="background-color:#000000;">
-  <div class="jumbotron" style="margin-bottom: 0px; background-color:#4285f4;"> 
-   <h1 class="display-4 texto_titulo"> 
+  <div class="jumbotron" style="margin-bottom: 0px; background-color:#1a59a9;"> 
+   <h1 class="texto-amarillo display-4 texto_titulo"> 
      <img src="{{asset('img/popcorn.png')}}" width="120" height="120"  alt="">Popcorn Lybrary
 
     </h1>
@@ -38,32 +38,25 @@
                                 <a class="nav-link" href="/">  <i class="fas fa-home"></i>Home</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="/catalogo"><i class="fas fa-tshirt"></i>Catalogo </a>
+                                <a class="nav-link" href="/catalogo"><i class="fas fa-star-half-alt"></i>Ver calificacion </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/ofertas"><i class="fas fa-bullhorn"></i>Opinion de los usuarios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/ofertas"><i class="fas fa-tag"></i>Ofertas</a>
+                                <a class="nav-link" href="/registrarse"><i class="fas fa-glasses"></i>Critica del staff</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/registrarse"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/encuesta"><i class="fas fa-smile"></i>Encuesta de Satisfaccion</a>
-                            </li>
+               
                         </ul>
-                                <a class="nav-link" href="about"><i class="fas fa-info"></i> Acerca de</a>
+                         <ul class="navbar-nav ml-auto nav-flex-icons">
+                               <a class="nav-link" href="/registrarse"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
                                 <a class="nav-link" href="/login">  <i class="fas fa-user-circle"></i>Login</a>
-                        <form class="form-inline my-2 my-lg-0">
-                            <div class="form-group has-search">
-                                <span class="fa fa-search form-control-feedback">  </span>
-                                <input class="form-control mr-sm-2" type="search" placeholder="Buscar " aria-label="Search">
-                                <button type="button" class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
-                        </form>
+                        
                     </div>
     </nav>
 @yield('content')
 
 
-<footer class="page-footer font-small " style="background-color: #4285f4;">
+<footer class="page-footer font-small " style="background-color: #1a59a9;">
   <div class="container">
     <div class="row">
       <div class="col-md-12 py-5">

@@ -48,7 +48,7 @@
   }
   @font-face{
     font-family: Title;
-    src:url('Broadway_2.ttf');  /*FUENTE MOD*/
+    src:url('gotic.ttf');  /*FUENTE MOD*/
   }
   @media only screen and (min-width: 1px) {
   .texto_titulo{
@@ -86,12 +86,12 @@
           width: 100%;
           border: 1px solid #F2F2F2;
       }
-      .texto-mantequilla1 {
-        color: #ffff08 !important;
+      .texto-blanco {
+        color: #ffffff !important;
       }
 
    
 
-      .texto-red {
-        color: #ff575f !important;
+      .texto-amarillo {
+        color: #f8e55b !important;
       }
