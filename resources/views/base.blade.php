@@ -12,14 +12,17 @@
   <link rel="stylesheet" href="{{asset('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap')}}">
   <link href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css')}}" rel="stylesheet">
   
-  
-
-
-
-
 <title>Popcorn Library  @yield('title',' ')</title>
 </head>
-<body style="background-color:#;">
+          <style>
+                  body {
+                    background-image: url('{{asset('img/background/background_4.jpg')}}');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;  
+                    background-size: cover;
+                  }
+          </style>
+<body>
   <div class="jumbotron blue-gradient" style="margin-bottom: 0px;"> 
    <h1 class="texto-amarillo display-4 texto_titulo"> 
      <img src="{{asset('img/popcorn.png')}}" width="120" height="120"  alt="">Popcorn Library
