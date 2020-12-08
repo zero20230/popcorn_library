@@ -1,6 +1,7 @@
 @extends('base')
 
-
+@section('title') - home
+@endsection
 @section('content')
 </br>
 

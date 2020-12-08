@@ -19,16 +19,16 @@
 
 <title>Popcorn Library  @yield('title',' ')</title>
 </head>
-<body style="background-color:#000000;">
-  <div class="jumbotron" style="margin-bottom: 0px; background-color:#1a59a9;"> 
+<body style="background-color:#;">
+  <div class="jumbotron blue-gradient" style="margin-bottom: 0px;"> 
    <h1 class="texto-amarillo display-4 texto_titulo"> 
-     <img src="{{asset('img/popcorn.png')}}" width="120" height="120"  alt="">Popcorn Lybrary
+     <img src="{{asset('img/popcorn.png')}}" width="120" height="120"  alt="">Popcorn Library
 
     </h1>
 
   </div>
 
-    <nav class="navbar navbar-expand-md " style="background-color: #fedc00;">
+    <nav class="navbar navbar-expand-md  navbar-dark  peach-gradient lighten-1 "> 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon">+</span>
                     </button>
@@ -37,26 +37,29 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/">  <i class="fas fa-home"></i>Home</a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="/catalogo"><i class="fas fa-star-half-alt"></i>Ver calificacion </a>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="/calificacion"><i class="fas fa-star-half-alt"></i>Ver calificacion </a>
                             <li class="nav-item">
-                                <a class="nav-link" href="/ofertas"><i class="fas fa-bullhorn"></i>Opinion de los usuarios</a>
+                                <a class="nav-link" href="/opinion_usuarios"><i class="fas fa-bullhorn"></i>Opinion de los usuarios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/registrarse"><i class="fas fa-glasses"></i>Critica del staff</a>
+                                <a class="nav-link" href="/critica"><i class="fas fa-glasses"></i>Critica del staff</a>
                             </li>
                
                         </ul>
-                         <ul class="navbar-nav ml-auto nav-flex-icons">
-                               <a class="nav-link" href="/registrarse"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
+                        <ul class="navbar-nav ml-auto nav-flex-icons">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/register"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
+                            </li>
+                            <li class="nav-item">      
                                 <a class="nav-link" href="/login">  <i class="fas fa-user-circle"></i>Login</a>
-                        
+                            </li>
                     </div>
     </nav>
 @yield('content')
 
 
-<footer class="page-footer font-small " style="background-color: #1a59a9;">
+<footer class="page-footer font-small blue-gradient ">
   <div class="container">
     <div class="row">
       <div class="col-md-12 py-5">
