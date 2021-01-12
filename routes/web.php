@@ -20,3 +20,9 @@ Route::get('/critica', 'CriticController@index')->name('critic');
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home_login', 'HomeLoginController@index')->name('home_login');
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
